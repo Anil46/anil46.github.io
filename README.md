@@ -7,7 +7,8 @@
 		<h2>I'm learning HTML tags</h2>
 	    <label>Full Name : </label>
 	           <input type="text" name  name="fname" id="name" placeholder="Enter your first name">
-	    <label>Secret pi : </label>
-	    <input type="text" pin pin="spin" id=:pin" placeholder="Enter your secret pin">
+	    <br><br>
+	    <label>Secret pin : </label>
+	    <input type="number" name="spin" id="name" placeholder="Enter your secret pin">
     </body>
 </html>
