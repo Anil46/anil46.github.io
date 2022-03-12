@@ -29,7 +29,11 @@
 	    <span id="CSS">CSS</Span>
 	    <br><br>
 	    <label>My field of study is : </label>
-	    <input type="select drop-down box" id="branch" placeholder="select your branch using this select drop-down">
+	    <select class="branch">
+		    <option>select your branch</option>
+		    <option>java</option>
+		    <option>python</option>
+		    <option>html</option>
 	    <br><br>
 		    
 	
