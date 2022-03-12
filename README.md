@@ -6,7 +6,7 @@
         <h1>hi this is my first web application by using git hub</h1>
 		<h2>I'm learning HTML tags</h2>
 	    <label>Full Name</label>
-	    <input tytpe="text" name  name="fname" id="name" placeholder="Enter your first name">
+	           <input tytpe="text" name  name="fname" id="name" placeholder="Enter your first name">
     </body>
 	<button style="colour: blue">submit form</button>
 </html>
