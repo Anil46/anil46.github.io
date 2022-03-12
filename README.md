@@ -36,7 +36,7 @@
 		    <option>html</option>
 	    <br><br>
             <label>Tell me about yourself : </label>
-            <input type="text" name="description" id="description" placeholder="Enter your description">
+            <input type="text" name="name" id="name" placeholder="Enter your description">
 		    
 		    
 	
