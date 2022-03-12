@@ -13,12 +13,12 @@
 	    <br><br>
 	    <label>Gender : </label>
 	    &nbsp;&nbsp;&nbsp;
-	    <input type=:"radio" name="gender" id="male">
+	    <input type="radio" name="gender" id="male">
 	    &nbsp;
-	    <spam id=-"male">Male</span>
+	    <spam id="male">Male</span>
 	     &nbsp;&nbsp;&nbsp;
-	    <input type=:"radio" name="gender" id="female">
+	    <input type="radio" name="gender" id="female">
 	    &nbsp;
-	    <spam id=-"male"FeMale</span>
+	    <spam id="male"FeMale</span>
 	</body>
 </html>
