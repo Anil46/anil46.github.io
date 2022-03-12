@@ -8,7 +8,7 @@
 	           <input type="text" name  name="fname" id="name" placeholder="Enter your first name">
 	    <br><br>
 	    <label>Secret pin : </label>
-	    <input type="number" name="spin" id="name" placeholder="Enter your secret pin">
+	    <input type="number" name="spin" id="4digitpin" placeholder="Enter your secret pin">
 	    <br><br>
 	    <label>Gender : </label>
 	    &nbsp;&nbsp;&nbsp;
@@ -35,6 +35,9 @@
 		    <option>python</option>
 		    <option>html</option>
 	    <br><br>
+		    <label>Tell me about yourself : </label>
+		    <input type="text" name="description" id="description" placeholder="Enter your descrition"?>
+		    
 		    
 	
 
