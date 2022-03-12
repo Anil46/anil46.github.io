@@ -15,11 +15,11 @@
 	    &nbsp;&nbsp;&nbsp;
 	    <input type="radio" name="gender" id="male">
 	    &nbsp;
-	    <spam id="male">Male</span>
+	    <spam id="male">Male
 	     &nbsp;&nbsp;&nbsp;
 	    <input type="radio" name="gender" id="female">
 	    &nbsp;
-	    <spam id="Female">Female</span>
+	    <spam id="Female">Female
 	    <br><br>
-	</body>
-</html>
+	
+
