@@ -4,6 +4,6 @@
     </head>
     <body> 
         <h1>hi this is my first web application by using gut hub</h1>
-		<h2>I'm learning HTML tags</h2>
+		<h2>I'm learning HTML tags and elements</h2>
     </body>
 </html>
