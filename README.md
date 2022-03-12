@@ -20,14 +20,16 @@
 	    &nbsp;
 	    <span id="Female">Female</span>
 	    <br><br>
-		    <label>I am expert i : </label>
-		    <br>
+		    <label>I am expert in : </label>
 		     &nbsp;&nbsp;&nbsp;
 		    <input type="checkbox" name="lang" id="HTML">
 	    <span id="HTML">HTML</SPAN>
 	     &nbsp;
 	     <input type="checkbox" name="lang" id="CSS">
 	    <span id="CSS">CSS</Span>
+	    <br><br>
+	    <label>My field of study is : </label>
+	    <input type="select drop-down box" id="branch" placeholder="select your branch using this select drop-down">
 	    <br><br>
 		    
 	
