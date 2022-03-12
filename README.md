@@ -3,8 +3,7 @@
           <title>anil46.github.io</title>
     </head>
     <body> 
-        <h1>hi this is my first web application by using git hub</h1>
-		<h2>I'm learning HTML tags</h2>
+	    <h1>hi this is my first web application by using git hub</h1>
 	    <label>Full Name : </label>
 	           <input type="text" name  name="fname" id="name" placeholder="Enter your first name">
 	    <br><br>
@@ -15,11 +14,21 @@
 	    &nbsp;&nbsp;&nbsp;
 	    <input type="radio" name="gender" id="male">
 	    &nbsp;
-	    <spam id="male">Male
+	    <span id="male">Male</span>
 	     &nbsp;&nbsp;&nbsp;
 	    <input type="radio" name="gender" id="female">
 	    &nbsp;
-	    <spam id="Female">Female
+	    <span id="Female">Female</span>
 	    <br><br>
+		    <label>I am expert i : </label>
+		    <br>
+		     &nbsp;&nbsp;&nbsp;
+		    <input type="checkbox" name="lang" id="HTML">
+	    <span id="HTML">HTML</SPAN>
+	     &nbsp;
+	     <input type="checkbox" name="lang" id="CSS">
+	    <span id="CSS">CSS</Span>
+	    <br><br>
+		    
 	
 
