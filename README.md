@@ -34,10 +34,10 @@
 		    <option>java</option>
 		    <option>python</option>
 		    <option>html</option>
+	    </select>
 	    <br><br>
             <label>Tell me about yourself : </label>
-            <input type="text" name="name" id="name" placeholder="Enter your description">
-		    
-		    
+	    <input type="text" name="description" id="description" placeholder="enter your description">
+            
 	
 
