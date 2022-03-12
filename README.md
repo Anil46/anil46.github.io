@@ -7,5 +7,5 @@
 		<h2>I'm learning HTML tags</h2>
 	    <p><b>Full Name</b></p>
     </body>
-	<button>submit form</button>
+	<buttonstyle="colour: blue">submit form</button>
 </html>
