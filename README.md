@@ -10,5 +10,15 @@
 	    <br><br>
 	    <label>Secret pin : </label>
 	    <input type="number" name="spin" id="name" placeholder="Enter your secret pin">
-    </body>
+	    <br><br>
+	    <label>Gender : </label>
+	    &nbsp;&nbsp;&nbsp;
+	    <input type=:"radio" name="gender" id="male">
+	    &nbsp;
+	    <spam id=-"male">Male</span>
+	     &nbsp;&nbsp;&nbsp;
+	    <input type=:"radio" name="gender" id="female">
+	    &nbsp;
+	    <spam id=-"male"FeMale</span>
+	</body>
 </html>
