@@ -1,9 +1,8 @@
 <html>
      <head>
-          <title> anil46.github.io</title>
+          <title> ANIL KUMAR </title>
     </head>
     <body> 
-        <h1>hi this is my first web application by using git hub</h1>
-		<h2>I'm learning HTML tags</h2>
+	    <h1> HI BHANU I LOVE YOU</h2>
     </body>
 </html>
