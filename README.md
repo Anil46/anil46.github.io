@@ -3,7 +3,7 @@
           <title>anil46.github.io</title>
     </head>
     <body> 
-	    <h1>hi this is my first web application by using git hub</h1>
+	    <h1>Hi this is my first web application by using git hub</h1>
 	    <label>Full Name : </label>
 	           <input type="text" name  name="fname" id="name" placeholder="Enter your first name">
 	    <br><br>
