@@ -40,17 +40,6 @@
 	    <input type="text" name="description" id="description" placeholder="enter your description">
 	    <br><br>
 	    <input type="submit" value="submit" name="submit form" id="submit form">
-	    <br><br>
-	    <br><br>
-	    <html>
-<head>
-</head>
-<body>
-<form name=calcform>
-<input type=button name=txt1 ><br>
-<input type=button name=btn9 value=9>
-</body>
-</html>
-            
+	    
 	
 
