@@ -5,7 +5,7 @@
     <body> 
 	    <h1>Hi this is my first web application by using git hub</h1>
 	    <label>Full Name : </label>
-	           <input type="text" name  name="fname" id="name" placeholder="Enter your first name">
+	           <input type="text" name  name="fname" id="name" placeholder="Enter your full name">
 	    <br><br>
 	    <label>Secret pin : </label>
 	    <input type="number" name="spin" id="4digitpin" placeholder="Enter your secret pin">
