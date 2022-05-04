@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        #parent{
+            width: 500px;
+            height: 300px;
+            background-color: blueviolet;
+            margin: 0 auto;
+            text-align: center;
+            border: 1px solid blueviolet;
+            position: absolute;
+            z-index: 1;
+        }
+        #child{
+            width: 400px;
+            height: 200px;
+            background-color: wheat;
+            margin: 10px auto;
+        }
+        #second{
+           background-color: gray;
+           position: absolute;
+           z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+<div id="child">
+    <h1>hello this is Z-index topic</h1>
+</div>
+    </div>
+    <div id="second">
+        <h1> hi this is second element</h1>
+    </div>
+</body>
+</html>
