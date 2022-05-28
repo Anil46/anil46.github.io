@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sprites</title>
     <style>
+        *{
+            margin: 0;
+        }
         .sprites{
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
             border: 2px solid black;
             text-align: center; 
             color: blue;
@@ -31,16 +34,29 @@
            bottom: 0;
            text-align: center;      
        }
+       .left-top{
+           background: url("images/sprites\ images.png");
+           background-position: -7px -1px;
+       }
+       .left-bottom{
+           background: url("images/sprites\ images.png");
+           background-position: -7px -129px;
+       }
+       .right-bottom{
+           background: url("images/sprites\ images.png");
+           background-position: -3px -193px;
+       }
+       .right-top{
+           background: url("images/sprites\ images.png");
+           background-position: -1px -66px;
+       }
     </style>
 </head>
 <body>
-    <div class="sprites">
-        <h1>HI</h1>
-    </div>
-    <div class="sprites right-top">  <h1>HI</h1></div>
-    <div class="sprites left-bottom"> <h1>HI</h1></div>
-    <div class="sprites left-bottom"> <h1>HI</h1></div>
-    <div class="sprites right-bottom"> <h1>HI</h1></div>
+    <div class="sprites left-top"></div>
+    <div class="sprites right-top"> </div>
+    <div class="sprites left-bottom"></div>
+    <div class="sprites right-bottom"></div>
     
 </body>
 </html>
