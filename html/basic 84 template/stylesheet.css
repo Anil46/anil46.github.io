@@ -138,6 +138,7 @@ fieldset{
     display: block;
     width: 100%;
     line-height: 1.6em;
+    overflow: auto;
 }
 #container #homepage h1{
     font-size: 16px;
@@ -225,4 +226,20 @@ fieldset{
 .row3 {
     color: #919191;
     background-color: #232323;
+}
+#footer{
+    padding: 20px 0;
+    display: block;
+    margin: 0 auto;
+    width: 960px;
+}
+.row3 a{
+    color: #919191;
+    background-color: #232323;
+}
+.f1_left{
+    float: left;
+}
+.f1_right{
+    float: right;
 }

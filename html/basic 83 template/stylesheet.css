@@ -1,48 +1,88 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.wrapper{
+
+.wrapper {
     display: block;
     width: 100%;
-    margin: 0;
-    padding: 0;
     text-align: left;
 }
-.row1{
-    background: #333333;
-    color: #C0BAB6;
+
+.row1 {
+    color: #c0bab6;
+    background-color: #333333;
 }
-#header{
+
+#header {
+    display: block;
     width: 960px;
     margin: 0 auto;
+    padding: 20px 0;
 }
-#hgroup{
+
+.clear {
+    clear: both;
+}
+
+#header #hgroup {
     float: left;
     margin: 0 0 20px 0;
 }
-#hgroup h1{
-        font-weight: normal;
-        text-transform: none;
-        font-size: 36px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.row1 a{
-    color: #C0BAB6;
-    background-color: #333333;
+
+a {
     outline: none;
     text-decoration: none;
 }
-#header{
-    padding: 20px 0;
-    overflow: auto;
-}
-#hgroup h2{
+
+#header #hgroup h1 {
+    font-size: 36px;
     font-weight: normal;
     text-transform: none;
-    font-size: 13px;
+    font-style: normal;
+    line-height: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+#header #hgroup h2 {
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+}
+#header .clear {
+        clear: both;
+    }
+
+    #header #hgroup {
+        float: left;
+        margin: 0 0 20px 0;
+    }
+
+    a {
+        outline: none;
+        text-decoration: none;
+    }
+
+    #header #hgroup h1 {
+        font-size: 36px;
+        font-weight: normal;
+        text-transform: none;
+        font-style: normal;
+        line-height: normal;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #header #hgroup h2 {
+        font-size: 13px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: none;
+        font-weight: normal;
+        font-style: normal;
+        line-height: normal;
+    }
 #header form {
     display: block;
     width: 290px;
@@ -50,12 +90,14 @@
     margin: 20px 0;
     padding: 0;
 }
-fieldset{
+
+fieldset {
     margin: 0;
     padding: 0;
     border: none;
 }
-#header form input{
+
+#header form input {
     display: block;
     float: left;
     width: 200px;
@@ -67,6 +109,7 @@ fieldset{
     font-size: 12px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 #header form #sf_submit {
     display: block;
     float: right;
@@ -79,77 +122,93 @@ fieldset{
     border: none;
     cursor: pointer;
 }
-#header nav{
+
+#header nav {
     margin: 10px 0 0 0;
     padding: 20px 0;
     color: #C0BAB6;
     background-color: #232323;
     clear: both;
 }
-#header nav ul{
+
+#header nav ul {
     padding: 0 20px;
     margin: 0;
     list-style: none;
 }
-#header nav ul li{
+
+#header nav ul li {
     display: inline;
     margin-right: 25px;
     text-transform: uppercase;
 }
-#header nav ul li:hover{
+
+#header nav ul li:hover {
     color: orange;
     cursor: pointer;
 }
+
 #header nav li a {
     color: #C0BAB6;
     background-color: #232323;
 }
-#header nav li .last{
+
+#header nav li .last {
     margin-right: 0;
 }
-.row2{
+
+.row2 {
     color: #979797;
     background-color: #FFFFFF;
 }
-#container{
+
+#container {
     display: block;
     width: 960px;
     margin: 0 auto;
     padding: 30px 0;
 }
-#container section{
+
+#container section {
     display: block;
     width: 100%;
     margin: 00 30px 0;
     padding: 0;
 }
-#container section #slider{
+
+#container section #slider {
     margin-bottom: 50px;
 }
-.row2 a{
+
+.row2 a {
     color: #FF9900;
     background-color: #FFFFFF;
 }
-#container section #slider  img{
+
+#container section #slider img {
     width: 960px;
     height: 280px;
     border: none;
     line-height: normal;
     vertical-align: middle;
 }
-#container #homepage{
+
+#container #homepage {
     line-height: 1.6em;
 }
-.one_quarter{
+
+.one_quarter {
     width: 225px;
     display: block;
     float: left;
     margin: 0 20px 0 0;
 }
-#container #homepage #services figure{
+
+#container #homepage #services figure {
     display: inline;
     float: left;
 }
+
 img {
     margin: 0;
     padding: 0;
@@ -167,6 +226,7 @@ img {
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 #container #homepage #services p {
     display: block;
     margin: 0;
@@ -175,25 +235,31 @@ img {
     line-height: 1.6em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
- .more{
+
+.more {
     text-align: right;
 }
-.lastbox{
+
+.lastbox {
     margin-right: 0;
 }
-#container section{
+
+#container section {
     display: block;
     width: 100%;
 }
-.clear{
+
+.clear {
     clear: both;
 }
-.three_quarter{
+
+.three_quarter {
     width: 715px;
     display: block;
     float: left;
     margin: 0 20px 0 0;
 }
+
 #container #homepage .last .three_quarter p {
     display: block;
     margin-block-start: 1em;
@@ -202,31 +268,39 @@ img {
     margin-inline-end: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-a{
+
+a {
     outline: none;
     text text-decoration: none;
 }
-footer{
+
+footer {
     display: block;
     margin: 0;
     padding: 0;
 }
-#container .more{
+
+#container .more {
     text-align: right;
-}  
-.row3, .row3 a {
+}
+
+.row3,
+.row3 a {
     color: #919191;
     background-color: #232323;
 }
+
 #footer {
     display: block;
     width: 960px;
     margin: 0 auto;
 }
-#footer p{
+
+#footer p {
     font-size: 13px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.f1_left{
+
+.f1_left {
     float: left;
 }

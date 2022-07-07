@@ -11,7 +11,7 @@
     text-align: left;
 }
 .row1{
-    background-color: #333333;
+    background: #333333;
     color: #C0BAB6;
 }
 #header{
@@ -67,97 +67,69 @@
     color: orange;
     cursor: pointer;
 }
-body {
-    margin: 0;
-    padding: 0;
-    font-size: 13px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #919191;
-    background-color: #C0BAB6;
-}
-.last{
-    margin-right: 0;
-}
-
-.row2 {
+.row2{
     color: #979797;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 #container{
+    display: block;
     width: 960px;
     margin: 0 auto;
+    padding: 30px 0;
 }
-
-#container #homepage {
+#container section{
+    display: block;
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+#container #shout{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #dedede;
+}
+#container #shout p{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+}
+#container #homepage{
     display: block;
     width: 100%;
     line-height: 1.6em;
 }
-
-#container section {
+#container #homepage #latest{
+    margin-bottom: 50px;
+}
+#container #homepage article{
     display: block;
-    width: 100%;
-    margin: 0 0 30px 0;
+    margin: 0;
     padding: 0;
-    text-align: left;
 }
-
-#container {
-    padding: 30px 0;
+#container #homepage article figure{
+    display: block;
+    margin: 0;
+    padding: 0;
 }
-.one_quarter {
+#container #homepage article figure ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#container #homepage article figure ul li{
+    margin-bottom: 20px;
+}
+#container #homepage #latest article figure ul li .one_quater{
     width: 225px;
     display: block;
     float: left;
     margin: 0 20px 0 0;
 }
-
-.lastbox {
-    margin-right: 0;
-}
-#container #homepage #latest figure {
+#container #homepage article figure ul li img{
     padding: 4px;
-    border: 1px solid #D6D6D6;
+    border: 1px solid #d6d6d6;
     text-align: center;
-    overflow: auto;
-}
-   
-
-#container #shout {
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid #DEDEDE;
-    text-align: center;
-    overflow: auto;
-}
-
-#container #shout p {
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-    line-height: 1.8em;
-}
-#latest {
-    overflow: auto;
-}
-h2 {
-    margin: 0px;
-    padding: 0px;
-    font-size: 14px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: normal;
-    text-transform: uppercase;
-}
-img {
-    margin: 0px;
-    padding: 0px;
-    border: none;
     line-height: normal;
     vertical-align: middle;
-    border: 1px solid#666666;
-}
-article{
     margin: 0;
-    padding: 0;
 }
-
