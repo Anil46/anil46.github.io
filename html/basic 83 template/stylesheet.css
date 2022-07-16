@@ -2,101 +2,62 @@
     margin: 0;
     padding: 0;
 }
-
-.wrapper {
+.wrapper{
     display: block;
     width: 100%;
+    margin: 0;
+    padding: 0;
     text-align: left;
 }
-
-.row1 {
+.row1{
     color: #c0bab6;
     background-color: #333333;
 }
-
-#header {
+#header{
+    padding: 20px 0;
     display: block;
     width: 960px;
     margin: 0 auto;
-    padding: 20px 0;
 }
-
-.clear {
-    clear: both;
-}
-
-#header #hgroup {
-    float: left;
+#header #hgroup{
     margin: 0 0 20px 0;
+    float: left;
 }
-
-a {
-    outline: none;
-    text-decoration: none;
-}
-
-#header #hgroup h1 {
+#header #hgroup h1{
     font-size: 36px;
     font-weight: normal;
     text-transform: none;
-    font-style: normal;
-    line-height: normal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-#header #hgroup h2 {
+.row1 a{
+    color: #c0bab6;
+    background-color: #333333;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+#header #hgroup h2{
     font-size: 13px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: none;
     font-weight: normal;
-    font-style: normal;
-    line-height: normal;
+    text-transform: none;
 }
-#header .clear {
-        clear: both;
-    }
-
-    #header #hgroup {
-        float: left;
-        margin: 0 0 20px 0;
-    }
-
-    a {
-        outline: none;
-        text-decoration: none;
-    }
-
-    #header #hgroup h1 {
-        font-size: 36px;
-        font-weight: normal;
-        text-transform: none;
-        font-style: normal;
-        line-height: normal;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    #header #hgroup h2 {
-        font-size: 13px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text-transform: none;
-        font-weight: normal;
-        font-style: normal;
-        line-height: normal;
-    }
-#header form {
+#header form{
     display: block;
     width: 290px;
     float: right;
     margin: 20px 0;
     padding: 0;
-}
-
-fieldset {
-    margin: 0;
-    padding: 0;
     border: none;
 }
-
+fieldset{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+form fieldset legend{
+    display: none;
+    border: none;
+}
 #header form input {
     display: block;
     float: left;
@@ -106,10 +67,11 @@ fieldset {
     color: #C0BAB6;
     background-color: #232323;
     border: 1px solid #666666;
-    font-size: 12px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+input{
+    font-size: 12px;
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
 #header form #sf_submit {
     display: block;
     float: right;
@@ -122,93 +84,61 @@ fieldset {
     border: none;
     cursor: pointer;
 }
-
-#header nav {
-    margin: 10px 0 0 0;
+#header nav{
+    display: block;
+    width: 100%;
+    margin: 0;
     padding: 20px 0;
     color: #C0BAB6;
     background-color: #232323;
     clear: both;
 }
-
-#header nav ul {
+#header nav ul{
     padding: 0 20px;
-    margin: 0;
     list-style: none;
 }
-
-#header nav ul li {
+#header nav ul li{
     display: inline;
-    margin-right: 25px;
     text-transform: uppercase;
+    margin-right: 25px;
 }
-
-#header nav ul li:hover {
-    color: orange;
-    cursor: pointer;
-}
-
-#header nav li a {
+#header nav ul li a{
     color: #C0BAB6;
     background-color: #232323;
 }
-
-#header nav li .last {
+#header nav ul li .last{
     margin-right: 0;
 }
-
 .row2 {
     color: #979797;
     background-color: #FFFFFF;
 }
-
-#container {
-    display: block;
-    width: 960px;
-    margin: 0 auto;
+#container{
     padding: 30px 0;
+    margin: 0 auto;
+    width: 960px;
+    display: block;
 }
-
-#container section {
+.clear{
+    clear: both;
+}
+#conatiner section{
     display: block;
     width: 100%;
-    margin: 00 30px 0;
+    margin: 0 0 30px 0;
     padding: 0;
 }
-
-#container section #slider {
+#container #slider{
     margin-bottom: 50px;
 }
-
-.row2 a {
+.row2 a{
     color: #FF9900;
     background-color: #FFFFFF;
 }
-
-#container section #slider img {
+container #slider img {
     width: 960px;
     height: 280px;
-    border: none;
-    line-height: normal;
-    vertical-align: middle;
 }
-
-#container #homepage {
-    line-height: 1.6em;
-}
-
-.one_quarter {
-    width: 225px;
-    display: block;
-    float: left;
-    margin: 0 20px 0 0;
-}
-
-#container #homepage #services figure {
-    display: inline;
-    float: left;
-}
-
 img {
     margin: 0;
     padding: 0;
@@ -216,91 +146,93 @@ img {
     line-height: normal;
     vertical-align: middle;
 }
-
-#container #homepage #services strong {
+#conatiner #hompage{
+    line-height: 1.6em;
+}
+body {
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.one_quarter{
+    width: 225px;
+    display: block;
     float: left;
+    margin: 0 0 20px 0;
+}
+#container #homepage #services figure {
+    display: inline;
+    float: left;
+}
+#container #homepage #services strong{
     margin: 8px 0 0 10px;
     padding: 0;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-#container #homepage #services p {
+#container #homepage #services p{
     display: block;
     margin: 0;
     padding: 5px 0 0 0;
     clear: both;
     line-height: 1.6em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-.more {
+#container .more {
     text-align: right;
 }
-
 .lastbox {
     margin-right: 0;
 }
-
-#container section {
+#container .last {
+    margin: 0;
+}
+#container section{
     display: block;
     width: 100%;
+    padding: 0;
 }
-
-.clear {
-    clear: both;
-}
-
-.three_quarter {
+.three_quarter{
     width: 715px;
     display: block;
     float: left;
-    margin: 0 20px 0 0;
+    margin: 0 0 20px 0;
 }
-
-#container #homepage .last .three_quarter p {
+h2{
+margin: 0;
+padding: 0;
+font-size: 16px;
+font-weight: bold;
+font-style: normal;
+line-height: normal;
+text-transform: uppercase;
+}
+p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-a {
-    outline: none;
-    text text-decoration: none;
+.lastbox{
+    margin-right: 0;
 }
-
-footer {
-    display: block;
-    margin: 0;
-    padding: 0;
-}
-
-#container .more {
-    text-align: right;
-}
-
-.row3,
-.row3 a {
+.row3{
     color: #919191;
     background-color: #232323;
 }
-
-#footer {
-    display: block;
-    width: 960px;
-    margin: 0 auto;
+footer{
+    padding: 20px 0;
 }
-
-#footer p {
-    font-size: 13px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.clear{
+    clear: both;
 }
-
-.f1_left {
+#footer p{
+    margin: 0;
+    padding: 0;
+}
+.fl_left {
     float: left;
+}
+.fl_right {
+    float: right;
 }

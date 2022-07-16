@@ -141,6 +141,7 @@ figure figcaption{
     display: block;
     width: 100%;
     padding: 0;
+    overflow: auto;
 }
 #container .last{
     margin: 0;
@@ -198,6 +199,10 @@ nav ul {
     margin: 0 0 5px 0;
     padding: 0 0 5px 0;
     border-bottom: 1px solid #555555;
+    margin: 0 auto;
+}
+#footer section nav li.last {
+    margin: 0;
 }
 .row3 a {
     color: #FF9900;
@@ -205,4 +210,27 @@ nav ul {
 }
 .lastbox {
     margin-right: 0;
+}
+.row4{
+    color: #919191;
+    background-color: #232323;
+}
+#copyright{
+    padding: 20px 0;
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.fl_left {
+    float: left;
+}
+.row4 a {
+    color: #919191;
+    background-color: #232323;
+}
+.fl_right {
+    float: right;
 }
