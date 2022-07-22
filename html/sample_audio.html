@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>vikram audio</title>
+    <style>
+        img{
+            width: 500px;
+            height: 500px;
+        }
+        body{
+            background-color: papayawhip;
+        }
+    </style>
+</head>
+
+<body>
+        <img src="../images/vikram poster.jpg" alt="">
+    <audio controls id="myaudio">
+        <source src="../audio/[iSongs.info] 02 - Vikram Title Track.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="playSongs()">play/pause</button>
+    <script>
+        var mySong = document.getElementById("myaudio")
+        function playSongs() {
+            if (mySong.paused) {
+                mySong.play()
+            } else {
+                mySong.pause()
+            }
+        }
+    </script>
+</body>
+
+</html>
