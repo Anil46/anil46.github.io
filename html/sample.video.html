@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>video</title>
+        <style>
+            body{
+                background-color: whitesmoke;
+            }
+            #myvideo{
+                width: 500px;
+                height: 500px;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <video controls id="myvideo">
+            <source src="../videos/WhatsApp Video 2022-07-22 at 12.15.48 PM (1).mp4">
+        </video>
+        <button onclick="playPause()">Play/Pause</button>
+        <button onclick="makeBig()">Big</button>
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="makeNormal()">Normal</button>
+        <script>
+            var videoElement = document.getElementById("myvideo")
+            function playPause(){
+                if(videoElement.paused) {
+                    videoElement.play()
+                    }else {
+                        videoElement.pause()
+                    }
+                }
+            function makeBig() {
+                videoElement.style.height="600px"
+            }
+            function makeSmall() {
+                videoElement.style.height="400px" 
+            }
+            function makeNormal(){
+                videoElement.style.height=""
+            }
+        </script>
+    </body>
+</html>
