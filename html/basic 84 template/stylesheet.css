@@ -86,6 +86,10 @@ fieldset{
     background-color: #232323;
     clear: both;
 }
+a{
+    outline: none;
+    text-decoration: none;
+}
 #header nav ul{
     padding: 0 20px;
     margin: 0;
