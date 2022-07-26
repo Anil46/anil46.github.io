@@ -276,8 +276,14 @@ p {
     background-color: #232323;
 }
 
-footer {
+#footer {
     padding: 20px 0;
+}
+#footer p{
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 70px;
 }
 
 .f1_left {
