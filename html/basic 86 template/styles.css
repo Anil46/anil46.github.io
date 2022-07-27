@@ -184,3 +184,69 @@ body {
     font-size: 13px;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
+#container section{
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+#container .last {
+    margin: 0;
+}
+.clear{
+    clear: both;
+}
+.one_quarter {
+    display: block;
+    width: 225px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+#container #homepage #latest article figure img {
+    margin: 0 0 10px 0;
+    padding: 4px;
+    border: 1px solid #D6D6D6;
+}
+#container #homepage #latest article figure h2 {
+    font-size: 14px;
+}
+#container .more {
+    text-align: right;
+}
+.lastbox {
+    margin-right: 0;
+}
+.row3 {
+    color: #919191;
+    background-color: #232323;
+}
+#footer {
+    padding: 20px 0;
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+#footer p {
+    margin: 0;
+    padding: 0;
+}
+.f1_left {
+    float: left;
+}
+.row3 a {
+    color: #919191;
+    background-color: #232323;
+}
+.f1_right{
+    float: right;
+}
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+}
