@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.row1 {
+    color: #c0bab6;
+    background-color: #333333;
+}
+
+#header {
+    padding: 20px 0;
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header #hgroup {
+    margin: 0 0 20px 0;
+    float: left;
+}
+
+#header #hgroup h1 {
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.row1 a {
+    color: #c0bab6;
+    background-color: #333333;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+#header #hgroup h2 {
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+#header form {
+    display: block;
+    width: 290px;
+    float: right;
+    margin: 20px 0;
+    padding: 0;
+    border: none;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+form fieldset legend {
+    display: none;
+    border: none;
+}
+
+#header form input {
+    display: block;
+    float: left;
+    width: 200px;
+    margin: 0;
+    padding: 5px;
+    color: #C0BAB6;
+    background-color: #232323;
+    border: 1px solid #666666;
+}
+
+input {
+    font-size: 12px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#header form #sf_submit {
+    display: block;
+    float: right;
+    width: 70px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+
+#header nav {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    color: #C0BAB6;
+    background-color: #232323;
+    clear: both;
+}
+
+#header nav ul {
+    padding: 0 20px;
+    list-style: none;
+}
+
+#header nav ul li {
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+
+#header nav ul li a {
+    color: #C0BAB6;
+    background-color: #232323;
+}
+
+#header nav ul li .last {
+    margin-right: 0;
+}

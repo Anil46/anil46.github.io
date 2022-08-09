@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
 }
@@ -159,11 +159,6 @@ input {
 .row2 a {
     color: #FF9900;
     background-color: #FFFFFF;
-}
-
-container #slider img {
-    width: 960px;
-    height: 280px;
 }
 
 img {

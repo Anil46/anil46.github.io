@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +18,8 @@
 #header{
     width: 960px;
     margin: 0 auto;
+    padding: 20px 0;
+    overflow: auto;
 }
 #hgroup{
     float: left;
@@ -39,10 +42,6 @@
     font-weight: normal;
     text-transform: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#header{
-    padding: 20px 0;
-    overflow: auto;
 }
 #header nav{
     float: right;
