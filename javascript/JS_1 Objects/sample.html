@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="addSkill()">ADDSKILL</button>
+    <button onclick="addCompany()">ADD COMPANY</button>
+    <button onclick="deleteExperience()">Delete Experience</button>
+    <script>
+        var person = {
+            fname:"ANIL",
+            lanme:"Kumar" ,
+            age :22,
+            isLookingForJob:true,
+            experience:null
+            // Propery of An Object
+        } 
+        console.log(person) 
+        function addSkill(){
+            person.skill = "UI Developer"
+            console.log(person)
+        }
+        function addCompany(){
+            person["company"] = "DELL"
+            console.log(person)
+        }
+        function deleteExperience(){
+            delete person.experience
+            console.log(person)
+        }
+    </script>
+</body>
+</html>
