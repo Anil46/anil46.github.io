@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+        color: white;
+        background-color: orange ;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        font-style: italic;
+    }
+</style>
+</head>
+<body>
+    <div id="spilce"></div>
+    <button onclick="splice()">Exhange A Value</button>
+    <script>
+        var results = ""
+        var students = ["ANIL","SAI","SRINU","SHIVA"]
+        function splice(){
+            students.splice(2,0,"Murali")
+            students.forEach((val)=>{
+               results+=val+"<br>"
+            })
+            document.getElementById("splice").innerHTML = results
+        }
+    </script>
+</body>
+</html>
