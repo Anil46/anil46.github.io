@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Tel</th>
+                <th>Address</th>
+                <th>City Name</th>
+                <th>State</th>
+                <th>Zip</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+        </tbody>
+    </table>
+    <script>
+        var users = [
+        {
+        "fname": "Colette",
+        "lname": "Pollard",
+        "tel": "(621)939-7352",
+        "address": "7479 Et Rd",
+        "city": "Fort Bragg",
+        "state": "NY",
+        "zip": 12173
+    },
+    {
+        "fname": "Dorci'A",
+        "lname": "Kaiser",
+        "tel": "(523)182-1856",
+        "address": "4793 Neque Rd",
+        "city": "Killeen",
+        "state": "TX",
+        "zip": 93379
+    },
+    {
+        "fname": "Abdul",
+        "lname": "Allison",
+        "tel": "(600)895-6079",
+        "address": "8743 Eros Ct",
+        "city": "Circleville",
+        "state": "OK",
+        "zip": 29597
+    },
+    {
+        "fname": "Khosrow",
+        "lname": "Ray",
+        "tel": "(736)907-2177",
+        "address": "3360 Turpis Ct",
+        "city": "Wahiawa",
+        "state": "TX",
+        "zip": 85799
+    },
+    {
+        "fname": "Delena",
+        "lname": "Lazier",
+        "tel": "(640)540-6767",
+        "address": "7764 Sed Rd",
+        "city": "Green Bay",
+        "state": "ME",
+        "zip": 48632
+    },
+    {
+        "fname": "Kerry",
+        "lname": "Kiab",
+        "tel": "(565)504-9308",
+        "address": "8484 Rutrum Ct",
+        "city": "Blaine",
+        "state": "MA",
+        "zip": 27619
+    },
+    {
+        "fname": "Rali",
+        "lname": "Lafave",
+        "tel": "(802)421-7198",
+        "address": "1187 Amet Dr",
+        "city": "Rolling Meadows",
+        "state": "IL",
+        "zip": 89602
+    },
+    {
+        "fname": "Isabel",
+        "lname": "Anderes",
+        "tel": "(566)767-9004",
+        "address": "3391 Ante Ave",
+        "city": "Union City",
+        "state": "MI",
+        "zip": 23194
+    },
+    {
+        "fname": "Veneta",
+        "lname": "Mckelvy",
+        "tel": "(630)195-4826",
+        "address": "773 Turpis Dr",
+        "city": "Arlington",
+        "state": "TN",
+        "zip": 53704
+    },
+    {
+        "fname": "Adeola",
+        "lname": "Staley",
+        "tel": "(690)555-7934",
+        "address": "4609 Aliquam Ln",
+        "city": "Littleton",
+        "state": "AK",
+        "zip": 25437
+    },
+    {
+        "fname": "Alesia",
+        "lname": "Gulotta",
+        "tel": "(552)738-0104",
+        "address": "9495 Pulvinar St",
+        "city": "Mcdonough",
+        "state": "PA",
+        "zip": 48457
+    },
+    {
+        "fname": "Gordon",
+        "lname": "Tanguma",
+        "tel": "(711)738-6648",
+        "address": "2669 Vitae Dr",
+        "city": "Somerset",
+        "state": "MO",
+        "zip": 79770
+    },
+    {
+        "fname": "Kantanzia",
+        "lname": "Dedonato",
+        "tel": "(468)315-2214",
+        "address": "4682 Sollicitudin Rd",
+        "city": "Littleton",
+        "state": "WA",
+        "zip": 34355
+    },
+    {
+        "fname": "Birbal",
+        "lname": "Merle",
+        "tel": "(275)631-0824",
+        "address": "3904 Aliquam Ln",
+        "city": "Temecula",
+        "state": "CO",
+        "zip": 88650
+    },
+    {
+        "fname": "Shanstella",
+        "lname": "Darbonne",
+        "tel": "(968)423-0592",
+        "address": "8588 Lacus Rd",
+        "city": "El Dorado Hills",
+        "state": "UT",
+        "zip": 30204
+    },
+    {
+        "fname": "Maya",
+        "lname": "Eschenbacher",
+        "tel": "(626)491-8739",
+        "address": "897 Lacus Dr",
+        "city": "Lancaster",
+        "state": "OH",
+        "zip": 51632
+    },
+    {
+        "fname": "Jephter",
+        "lname": "Schamber",
+        "tel": "(596)752-3992",
+        "address": "608 Mattis Dr",
+        "city": "Grand Rapids",
+        "state": "MD",
+        "zip": 69358
+    },
+    {
+        "fname": "Yiping",
+        "lname": "Bowers",
+        "tel": "(414)398-4313",
+        "address": "5046 Et St",
+        "city": "Albany",
+        "state": "MI",
+        "zip": 67769
+    },
+    {
+        "fname": "Henry",
+        "lname": "Mundie",
+        "tel": "(436)092-6019",
+        "address": "3568 Odio Ln",
+        "city": "Centreville",
+        "state": "CA",
+        "zip": 87258
+    },
+    {
+        "fname": "Pauline",
+        "lname": "Hughesdkaiya",
+        "tel": "(786)488-2282",
+        "address": "5569 Suspendisse Dr",
+        "city": "Nicholasville",
+        "state": "OH",
+        "zip": 21908
+    },
+    {
+        "fname": "Meiyin",
+        "lname": "Ramati",
+        "tel": "(485)694-7545",
+        "address": "8678 Sed St",
+        "city": "Pasadena",
+        "state": "NJ",
+        "zip": 16246
+    },
+    {
+        "fname": "Randy",
+        "lname": "Rutt",
+        "tel": "(397)391-4069",
+        "address": "18 Sed Ct",
+        "city": "East Boston",
+        "state": "MS",
+        "zip": 97548
+    },
+    {
+        "fname": "Cheryl",
+        "lname": "Galvez",
+        "tel": "(543)325-0604",
+        "address": "3335 Sagittis St",
+        "city": "Glendale",
+        "state": "ME",
+        "zip": 52127
+    },
+    {
+        "fname": "Ross",
+        "lname": "Kyger",
+        "tel": "(177)022-0579",
+        "address": "6659 Tincidunt Rd",
+        "city": "Redondo Beach",
+        "state": "CA",
+        "zip": 90788
+    },
+    {
+        "fname": "Emiliano",
+        "lname": "Gardenhour",
+        "tel": "(896)456-2482",
+        "address": "792 Placerat St",
+        "city": "San Francisco",
+        "state": "HI",
+        "zip": 43540
+    },
+    {
+        "fname": "Ayse",
+        "lname": "Hougland",
+        "tel": "(819)971-7980",
+        "address": "2842 Pretium Ave",
+        "city": "Idaho Falls",
+        "state": "NH",
+        "zip": 41782
+    },
+    {
+        "fname": "Olivia",
+        "lname": "Kaiser",
+        "tel": "(919)986-5858",
+        "address": "3770 Libero Rd",
+        "city": "Big Bear",
+        "state": "MN",
+        "zip": 90934
+    },
+    {
+        "fname": "Cely",
+        "lname": "Puglisi",
+        "tel": "(671)797-2826",
+        "address": "4941 Facilisis Rd",
+        "city": "Phoenix",
+        "state": "VT",
+        "zip": 93440
+    },
+    {
+        "fname": "Cecelia",
+        "lname": "Olejnik",
+        "tel": "(919)928-0439",
+        "address": "8361 Morbi Rd",
+        "city": "Slate Hill",
+        "state": "KY",
+        "zip": 35904
+    },
+    {
+        "fname": "Dante'",
+        "lname": "Wells",
+        "tel": "(490)119-0726",
+        "address": "1289 Orci Dr",
+        "city": "Evanston",
+        "state": "OK",
+        "zip": 87154
+    },
+    {
+        "fname": "Toya",
+        "lname": "Fitzgerald",
+        "tel": "(926)466-9801",
+        "address": "225 Dolor Ln",
+        "city": "Fayetteville",
+        "state": "IL",
+        "zip": 60165
+    },
+     
+        ]
+
+        users.forEach((user)=>{
+            var mytr = document.createElement("tr");
+            for(a in user){
+                var mytd = document.createElement("td")
+                mytd.innerHTML=user[a]
+                mytr.appendChild(mytd)
+            }
+            document.querySelector("tbody").appendChild(mytr);
+        })
+    </script>
+</body>
+</html>
