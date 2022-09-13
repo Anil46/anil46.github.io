@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item {
+            background-color: greenyellow;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        for(i=0;i<6;i++){
+            var para = document.createElement("p");
+
+            para.setAttribute("class","item")
+
+            para.style.textAlign="center"
+            para.style.padding="15px"
+            para.style.margin="15px"
+
+            para.innerHTML = "Hello! am para element created by using DOM method"
+
+            document.body.appendChild(para)
+        }
+    </script>
+</body>
+
+</html>
