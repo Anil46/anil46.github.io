@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: block;
+    width: 100%;
+    margin: 0;  
+    padding: 0;
+    text-align: left;
+}
+.row1{
+    background-color: #333333;
+    color: #C0BAB6;
+}
+#header{
+    width: 960px;
+    margin: 0 auto;
+}
+#hgroup{
+    float: left;
+    margin: 0 0 20px 0;
+}
+#hgroup h1{
+    font-weight: normal;
+    text-transform: none;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row1 a{
+    color: #C0BAB6;
+    background-color: #333333;
+    outline: none;  
+    text-decoration: none;
+}
+#hgroup h2{
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#header{
+    padding: 20px 0;
+    overflow: auto;
+}
+#header nav{
+    float: right;
+    margin: 10px 0 0 0;
+    padding: 20px 0;
+    color: #C0BAB6;
+    background-color: #232323;
+}
+
+#header nav ul{
+    padding: 0 20px;
+    list-style: none;
+    margin: 0;
+}
+
+#header nav ul li{
+    display: inline;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+#header nav ul li:hover{
+    color: orange;
+    cursor: pointer;
+}
+.last{
+    margin-right: 0;
+}
+body{
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row2{
+    color: #979797;
+    background-color: #ffffff;
+}
+#container{
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+#container section{
+    display: block;
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+.row2 a{
+    color: #ff9900;
+    background-color: #ffffff;
+}
+img {
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: normal;
+    vertical-align: middle;
+}
+#container #homepage{
+    display: block;
+    width: 100%;
+    line-height: 1.6em;
+}
+#container #homepage #services{
+    display: block;
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.one_third{
+    width: 300px;
+    display: block;
+    margin: 0 30px 0 0;
+    float: left;
+}
+figure figcaption{
+    display: block;
+}
+#container #homepage #article figure h2{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+}
+#container #homepage #article figure p{
+    display: block;
+}
+#container .more{
+    text-align: right;
+}
+.lastbox{
+    margin-right: 0;
+}
+#container section{
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: auto;
+}
+#container .last{
+    margin: 0;
+}
+#container #homepage #intro article figure img{
+    float: right;
+    margin: 0 0 10px 0;
+    padding: 4px;
+    border: 1px solid #d6d6d6;
+}
+#container #homepage #intro article figure figcaption{
+    float: left;
+    width: 460px;
+}
+#container #homepage #intro article figure figcaption p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#container .more{
+    text-align: right;
+}
+.row3{
+    color: #989898;
+    background-color: #333333;
+}
+#footer {
+    padding: 30px 0;
+    font-size: 12px;
+    line-height: 1.4em;
+}
+.one_quarter {
+    width: 225px;
+    display: block;
+    float: left;
+    margin: 0 20px 0 0;
+}
+#footer section h2.title {
+    margin: 0 0 25px 0;
+    padding: 0;
+    color: #FFFFFF;
+    background-color: #;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#footer section nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#footer section nav li {
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #555555;
+}
+#footer section nav li.last {
+    margin: 0;
+}
+.row3 a {
+    color: #FF9900;
+    background-color: #333333;
+}
+.lastbox {
+    margin-right: 0;
+}
+.row4{
+    color: #919191;
+    background-color: #232323;
+}
+#copyright{
+    padding: 20px 0;
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+footer{
+    overflow: auto;
+}
+.clear{
+    clear: both;
+}
+.f1_left {
+    float: left;
+}
+.row4 a {
+    color: #919191;
+    background-color: #232323;
+    outline: none;
+    list-style: none;
+}
+.f1_right {
+    float: right;
+}
+#footer{
+    margin: 0 0 0 300px;
+}
+#footer section{
+    margin: ;
+}

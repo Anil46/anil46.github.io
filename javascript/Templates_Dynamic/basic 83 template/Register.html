@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic 83 template</title>
+    <style>
+        @media only screen and (max-width:768px) {
+    header{
+        width: 100%;
+        background-color: #232323;
+    }
+
+    header nav ul li {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+}
+}
+    </style>
+    <link rel="stylesheet" href="./stylesheet.css   ">
+</head> 
+
+<body>
+    <div class="wrapper row1">
+        <header id="header" class="clear">
+            <div id="hgroup">
+                <h1><a href="#">Basic 83</a></h1>
+                <h2>Free HTML5 Website Template</h2>
+            </div>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <input type="text" value="Search Our Website...">
+                    <input type="submit" id="sf_submit" value="submit">
+                </fieldset>
+            </form>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="">TEXT LINK</a></li>
+                    <li><a href="./Register.js">REGISTER</a></li>
+                    <li><a href="./userdetails.html">USER DETAILS</a></li>
+                    <li class="last"><a href="">TEXT LINK</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="wrapper row2">
+        <div id="container" class="clear">
+            <section id="slider"><a href="#"><img src="./images/960x280.gif" alt=""></a></section>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <div class="col">
+                        <form onsubmit="getUserData(event)" >
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+            
+                            <div class="mb-3">
+                                <label for="fullName" class="form-label">Full name</label>
+                                <input type="text" class="form-control" id="fullName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="userName" class="form-label">User Name</label>
+                                <input type="text" class="form-control" id="userName">
+                            </div>
+                            <!-- <button type="button" class="btn btn-primary" onclick="getUserData()">Submit</button> -->
+                            <!-- <button class="btn btn-primary" type="button">Submit</button> -->
+                            <button class="btn btn-primary" >Submit</button>
+                        </form>
+                    </div>
+                    <div class="col">
+            
+                    </div>            
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper row3">
+        <footer id="footer" class="clear">
+          <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+          <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+        </footer>
+      </div>
+      <script>
+        function getUserData(event){
+            event.preventDefault()
+            // var person = {
+            //     fullName:document.getElementById("fullName").value,
+            //     email:document.getElementById("email").value,
+            //     userName:document.getElementById("userName").value
+            // }
+            var person = {
+                fullName:"",
+                email:"",
+                userName:""
+            }
+            for(a in person){
+                person[a]=document.getElementById(a).value
+                }
+                console.log(person)
+        }   
+             document.querySelector("button").onclick = getUserData
+      </script>
+      </body>
+      </html>
