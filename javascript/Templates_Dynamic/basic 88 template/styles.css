@@ -83,6 +83,8 @@ body{
     width: 960px;
     margin: 0 auto;
     padding: 30px 0;
+    height: 500px;
+    overflow: scroll;
 }
 #container section{
     display: block;

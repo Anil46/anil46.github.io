@@ -73,6 +73,8 @@
 #container{
     display: block;
     width: 960px;
+    overflow: scroll;
+    height: 500px;
     margin: 0 auto;
     padding: 30px 0;
 }

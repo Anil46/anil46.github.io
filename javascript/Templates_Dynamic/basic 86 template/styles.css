@@ -72,6 +72,8 @@ a {
     padding: 30px 0;
     display: block;
     width: 960px;
+    height: 500px;
+    overflow: scroll;
     margin: 0 auto;
 }
 .clear{

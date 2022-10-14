@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Basic 86</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="wrapper row1">
+            <header id="header" class="clear">
+                <div id="hgroup">
+                    <h1>
+                        <a href="#">Basic 86</a>
+                    </h1>
+                    <h2>Free HTML5 Website Template</h2>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="">TEXT LINK</a></li>
+                        <li><a href="./Register.html">REGISTER</a></li>
+                        <li><a href="./userdetails.html">USER DETAILS</a></li>
+                        <li class="last"><a href="">TEXT LINK</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="wrapper row2">
+            <div id="container" class="clear">
+                <section id="slider" class="clear">
+                    <figure>
+                        <img src="./images/630x300.gif" alt="Template Demo Image">
+                        <figcaption>
+                            <h2>Eu justo augue estas</h2>
+                            <p>
+                                Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.
+                            </p>
+                            <footer class="more">
+                                <a href="#">Read More >></a>
+                            </footer>
+                        </figcaption>
+                    </figure>
+                </section>
+               <div id="hompage">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col">
+                        <div class="col">
+                            <form onsubmit="getUserData(event)" >
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                
+                                <div class="mb-3">
+                                    <label for="fullName" class="form-label">Full name</label>
+                                    <input type="text" class="form-control" id="fullName">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="userName" class="form-label">User Name</label>
+                                    <input type="text" class="form-control" id="userName">
+                                </div>
+                                <!-- <button type="button" class="btn btn-primary" onclick="getUserData()">Submit</button> -->
+                                <!-- <button class="btn btn-primary" type="button">Submit</button> -->
+                                <button class="btn btn-primary" >Submit</button>
+                            </form>
+                        </div>
+                        <div class="col">
+                
+                        </div>            
+                    </div>
+                </div>
+               </div>
+                
+            </div>
+        </div>
+        <div class="wrapper row3">
+            <footer id="footer" class="clear">
+                <p class="f1_left">
+                    Copyright © 2009 - 2022 - All Rights Reserved - 
+                    <a href="#">Domain Name</a>
+                </p>
+                <p class="f1_right">
+                    Template by 
+                    <a href="#">OS Templates</a>
+                </p>
+            </footer>
+        </div>
+    </body>
+    <script>
+        function getUserData(event){
+            event.preventDefault()
+            var person={
+                fullName:"",
+                email:"",
+                userName:""
+            }
+            for(a in person){
+                person[a]=document.getElementById(a).value
+            }
+            console.log(person)
+        }
+            document.querySelector("button").onclick =getUserData
+        
+    </script>
+</html>

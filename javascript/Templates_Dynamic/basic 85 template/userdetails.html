@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="wrapper row1">
+        <header id="header" class="clear">
+            <div id="hgroup">
+                <h1>
+                    <a href="#">Basic 85</a>
+                </h1>
+                <h2>Free HTML5 Website Template</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Text Link</a></li>
+                    <li><a href="./Register.html">Register</a></li>
+                    <li><a href="./userdetails.html">UserDetails</a></li>
+                    <li><a href="#">Text Link</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="container" class="clear">
+        <table border="1" style="width: 100%;">
+            <thead>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Tel</th>
+                <th>Address</th>
+                <th>City Name</th>
+                <th>State</th>
+                <th>Zip</th>
+            </thead>
+            <tbody>
+
+
+
+            </tbody>
+        </table>
+    </div>
+    <div class="wrapper row3">
+        <footer id="footer" class="clear">
+            <p class="f1_left">
+                Copyright © 2009 - 2022 - All Rights Reserved -
+                <a href="#">Domain Name</a>
+            </p>
+            <p class="f1_right">
+                Template By
+                <a href="#">OS Templates</a>
+            </p>
+        </footer>
+    </div>
+</body>
+<script src="./users.js"></script>
+<script>
+    users.forEach((user) => {
+        var myTr = document.createElement("tr");
+        for (a in user) {
+            var myTd = document.createElement("td")
+            myTd.innerHTML = user[a]
+            myTr.appendChild(myTd)
+        }
+        document.querySelector("tbody").appendChild(myTr);
+    })
+</script>
+
+</html>
