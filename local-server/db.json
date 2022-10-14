@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "fname": "Anil",
+      "kname": "kumar",
+      "id": 1
+    },
+    {
+      "fname": "sai",
+      "kname": "kumar",
+      "id": 3
+    }
+  ]
+}

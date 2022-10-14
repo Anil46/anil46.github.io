@@ -91,15 +91,15 @@
     <script>
         function getUserData(event){
             event.preventDefault()
-            var person = {
+            var Register= {
                 fullName:"",
                 email:"",
                 userName:""
             }
-            for(a in person){
-                person[a]=document.getElementById(a).value
+            for(a in Register){
+                Register[a]=document.getElementById(a).value
             }
-            console.log(person)
+            console.log(Register)
         }
         document.querySelector("button").onclick = getUserData
     </script>
