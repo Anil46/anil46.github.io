@@ -1,6 +1,6 @@
 function deleteUser(i) {
   console.log(allUsers[i]);
-  var DEL_URL = API_URL + allUsers[i].id
+  var DEL_URL = API_URL + allUsers[i].id 
   var getInfo = new XMLHttpRequest();
   getInfo.onreadystatechange = function () {
     if (getInfo.readyState == 4 && getInfo.status == 200) {

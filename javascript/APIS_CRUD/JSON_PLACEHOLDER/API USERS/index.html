@@ -1,0 +1,96 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid"
+    style="text-align: center; display: inline; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif; font-style:oblique;">
+      <a class="navbar-brand" href="#">USERS API VALIDATION FROM SERVER</a>
+    </div>
+    <button  class="btn btn-outline-success col" style="width:180px; height:50px;font-size: larger;font-family: Georgia, 'Times New Roman', Times, serif; display: inline;  text-align: center; font-style: oblique;" 
+    onclick=getData()>GET DATA</button>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-10">
+            <table class="table">
+                <thead>
+                    <tr>
+                         <th>Id</th>
+                         <th>Name</th>
+                         <th>User Name</th>
+                         <th>Email</th>
+                         <th>Address</th>
+                         <th>Phone</th>
+                         <th>Website</th>
+                         <th>Company</th>
+                         <th>Edit</th>
+                         <th>Delete</th>
+                       
+                        
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="col-2">
+            <form>
+                
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"> Id</label>
+                  <input type="password" class="form-control" id="id">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Name</label>
+                    <input type="password" class="form-control" id="name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Username</label>
+                    <input type="password" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Email</label>
+                    <input type="password" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Address</label>
+                    <input type="password" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Phone</label>
+                    <input type="password" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Website</label>
+                    <input type="password" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Company</label>
+                    <input type="password" class="form-control" id="email">
+                  </div>
+                <button type="button" class="btn btn-primary" onclick="updateUser()">Submit</button>
+              </form>
+        </div>
+    </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <script src="./getallusers.js"></script>
+  <script src="./displayusers.js"></script>
+  <script src="./editusers.js"></script>
+  <script src="./deleteusers.js"></script>
+  <script src="./updateuser.js"></script>
+</body>
+</html>

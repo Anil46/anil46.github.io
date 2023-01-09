@@ -1,4 +1,4 @@
-let API_URL =  "http://localhost:3000/users"
+let API_URL =  "http://localhost:3000/username"
 
 function getAllUsers(){
   var getInfo = new XMLHttpRequest();
