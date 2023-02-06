@@ -12,11 +12,10 @@
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid"
     style="text-align: center; display: inline; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif; font-style:oblique;">
-      <a class="navbar-brand" href="#"> CARTS API VALIDATION FROM SERVER</a>
-      
+      <a class="navbar-brand" href="#">USERS API VALIDATION FROM SERVER</a>
     </div>
     <button  class="btn btn-outline-success col" style="width:180px; height:50px;font-size: larger;font-family: Georgia, 'Times New Roman', Times, serif; display: inline;  text-align: center; font-style: oblique;" 
-    onclick=getData()>GET DATA</button>
+    onclick=getData()> GET DATA </button>
   </nav>
   <div class="container-fluid">
     <div class="row">
@@ -24,12 +23,15 @@
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">S.NO</th>
-              <th scope="col">User ID</th>
-              <th scope="col">Date</th>
+              <th scope="col">City</th>
+              <th scope="col">ID</th>
+              <th scope="col">Gmail</th>
+              <th scope="col">UserName</th>
+              <th scope="col">Password</th>
+              <th scope="col">Name</th>
+              <th scope="col">Tel.No</th>
               <th scope="col">Edit</th>
               <th scope="col">Delete</th>
-             
             </tr>
           </thead>
           <tbody>
@@ -39,18 +41,26 @@
       <div class="col-3">
         <form>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">S.NO</label>
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
           <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
         </div>
    
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">User ID</label>
+            <label for="exampleInputEmail1" class="form-label">Phone</label>
             <input type="email" class="form-control" id="phone" aria-describedby="emailHelp">
           </div>
           
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Date</label>
+            <label for="exampleInputEmail1" class="form-label">Username</label>
             <input type="email" class="form-control" id="username" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Password</label>
+            <input type="email" class="form-control" id="password" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">ID</label>
+            <input type="email" class="form-control" id="id" aria-describedby="emailHelp">
           </div>
         <button type="button" class="btn btn-primary" onclick="updateUser()">Submit</button>
       </form>
@@ -60,10 +70,6 @@
       </div>
     </div>
   </div>
-  <script src="./getallusers.js"></script>
-  <script src="./displayusers.js"></script>
-  <script src="./editusers.js"></script>
-  <script src="./deleteuser.js"></script>
-  <script src="./updateuser.js"></script>
+  
 </body>
 </html>
