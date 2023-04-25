@@ -8,10 +8,7 @@ export default class Products extends Component {
             Products: [],
         }
     }
-    //  handledelete = (Product) => {
-    //     let balanceProducts = Products.filter((prd) => prd.id !== Products.id);
-    //     this.setState(balanceProducts);
-    //   };
+    
     render() {
         return (
             <div>
@@ -21,10 +18,7 @@ export default class Products extends Component {
                         return (
                             <li>
                                 <img src={Product.image} alt="" />
-                                {/* <button
-                                onClick={()=>{handledelete(Product)}}>
-                                    Delete Button
-                                </button> */}
+                               
                             </li>
                         )
                     })}

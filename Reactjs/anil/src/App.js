@@ -6,17 +6,32 @@ import { UsersFunc } from "./UsersFunc"
 import { CartFunc } from "./CartFunc"
 import { PostsFunc } from "./PostsFunc"
 import { CmtFunc } from "./CmtFunc"
+import { AlbumFunc } from "./AlbumFunc"
+import { PhotosFUnc } from "./PhotosFunc"
+import { TodosFunc } from "./TodosFunc"
+import { UsersFun } from "./UsersFun"
+import { FullnameFunc } from "./FullnameFunc"
+import { AddressFunc } from "./AddressFunc"
+import { UsernameFunc } from "../../API'S FUNCTIONAL COMPONENTS/UsernameFunc"
 export default function Anil(){
   return (
     <div>
-    {/* <h1>Hello From Main Component</h1> */}
+    
     {/* <All/> */}
    
     {/* <ProductsFunc/>
     <UsersFunc/>
     <CartFunc/> */}
     {/* <PostsFunc/> */}
-    <CmtFunc/>
+    {/* <CmtFunc/> */}
+    {/* <AlbumFunc/> */}
+    {/* <PhotosFUnc/> */}
+    {/* <TodosFunc/> */}
+    {/* <UsersFun/> */}
+    {/* <FullnameFunc/> */}
+    {/* <AddressFunc/> */}
+    {/* <UsernameFunc/> */}
+    <UsernameFunc/>
   </div>
   )
 }
