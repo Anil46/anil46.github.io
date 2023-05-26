@@ -11,6 +11,7 @@ import { UsersFun } from "./API'S FUNCTIONAL COMPONENTS/UsersFun";
 import { UsersFunc } from "./API'S FUNCTIONAL COMPONENTS/UsersFunc";
 import { TodosFunc } from "./API'S FUNCTIONAL COMPONENTS/TodosFunc";
 import { PostsFunc } from "./API'S FUNCTIONAL COMPONENTS/PostsFunc";
+import { CricketFunc } from "./API'S FUNCTIONAL COMPONENTS/CricketFunc";
 
 
 import Products from "./API'S CLASS COMPONENTS/Products";
@@ -45,6 +46,9 @@ export default function axios() {
       {/* <TodosFunc/> */}
       {/* <CartFunc/> */}
       {/* <PhotosFUnc/> */}
+      <CricketFunc/>
+    
+      
 
 
 
@@ -60,7 +64,10 @@ export default function axios() {
                           {/* <TodosCls/> */}
                           {/* <UserCls/> */}
                           {/* <UsernameCls/> */}
-                          <UsersCls/>
+                          {/* <UsersCls/> */}
+
+
+                          
       
     </div>
   )
